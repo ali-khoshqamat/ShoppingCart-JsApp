@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shopping cart</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </span>
+        <p class="nav-title">Queen Shopping</p>
+        <span class="cart-btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="cart-items">0</span>
+        </span>
+      </div>
+    </nav>
+
+    <!-- products -->
+    <section class="products">
+      <div class="products-title">
+        <h2>Our Products</h2>
+      </div>
+      <!-- single product -->
+      <div class="products-center"></div>
+    </section>
+
+    <!-- cart -->
+    <section class="cart-center">
+      <div class="back-drop"></div>
+      <div class="cart">
+        <h3 class="cart-title">Your Cart</h3>
+        <div class="cart-content">
+          <!-- single item -->
+        </div>
+        <div class="cart-footer">
+          <span class="cart-total">total price: 00 $</span>
+          <button class="btn clear-cart">clear cart</button>
+          <button class="btn cart-item-confirm">confirm</button>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
